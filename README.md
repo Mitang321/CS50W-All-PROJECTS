@@ -8,3 +8,5 @@ Project | Title | Topics | Description
 2 | Commerce | SQL, Django | Implemented a website for auction sales. Built with Python, Django, HTML, BootStrap4.x. Database: SQLite. <br> Demo: https://youtu.be/en16LlRirFU
 3 | Mail | JavaScript, HTML | Implemented frontend that uses Django API. Built with Python, Django, JavaScript, HTML, BootStrap4.x. Database: SQLite. <br> Demo: https://youtu.be/J8BJwsRXV-U
 4 | Network | Django, JavaScript, HTML | Implemented a twitter replica. Built with Python, Django, JavaScript, HTML, BootStrap4.x. Database: SQLite. <br> Demo: https://youtu.be/y7DfSCBxqI8  
+5 | Final Project | Django, JavaScript, HTML | Final Project <br> Demo: https://youtu.be/y7DfSCBxqI8  
+
