@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" class="index">
+  <head>
+    <title>Google Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="logo-container">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png"
+        alt="Google Logo"
+        height="150x"
+      />
+    </div>
+    <div id="search-container">
+      <form action="https://www.google.com/search">
+        <input type="text" name="q" placeholder="Google Search" /><br /><br />
+        <input type="submit" value="Google Search" />
+        <input type="button" id="feeling-lucky" value="I'm Feeling Lucky" />
+        <br /><br />
+        <a href="image-search.html">Image Search</a>
+        <a href="advanced-search.html">Advanced Search</a>
+      </form>
+    </div>
+
+    <script>
+      document
+        .getElementById("feeling-lucky")
+        .addEventListener("click", function () {
+          const query = encodeURIComponent(
+            document.querySelector("input[name='q']").value
+          );
+          window.location.href = `https://www.google.com/search?q=${query}&btnI=Im+Feeling+Lucky`;
+        });
+    </script>
+  </body>
+</html>

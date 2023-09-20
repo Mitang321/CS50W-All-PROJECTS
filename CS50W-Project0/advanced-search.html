@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" class="advanced-search">
+  <head>
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="logo-container">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png"
+        alt="Google Logo"
+        height="150x"
+      />
+    </div>
+    <div id="search-container">
+      <form action="https://www.google.com/search" method="GET">
+        <div class="search-field">
+          <label for="all-words">Find pages with... "all these words:"</label>
+          <input type="text" id="all-words" name="q" />
+        </div>
+        <div class="search-field">
+          <label for="exact-phrase"
+            >Find pages with... "this exact word or phrase:"</label
+          >
+          <input type="text" id="exact-phrase" name="as_epq" />
+        </div>
+        <div class="search-field">
+          <label for="any-words"
+            >Find pages with... "any of these words:"</label
+          >
+          <input type="text" id="any-words" name="as_oq" />
+        </div>
+        <div class="search-field">
+          <label for="none-words"
+            >Find pages with... "none of these words:"</label
+          >
+          <input type="text" id="none-words" name="as_eq" />
+        </div>
+        <input type="submit" value="Advanced Search" />
+        <a href="index.html">Google Search</a>
+      </form>
+    </div>
+  </body>
+</html>
